@@ -1,0 +1,107 @@
+body {
+  background-color: black;
+}
+.logo img {
+  padding: 4px;
+  height: 100px;
+  width: 100px;
+}
+
+.nav ul {
+  margin-top: -80px;
+  margin-left: 370px;
+}
+.nav li {
+  list-style: none;
+  display: inline;
+  padding: 40px;
+  transform: scale(0);
+  transition: transform 300ms;
+}
+
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 2px;
+}
+a:hover {
+  color: orangered;
+}
+.main img {
+  margin-left: 880px;
+  margin-top: 20px;
+  height: 530px;
+  width: 420px;
+}
+.icon {
+  color: white;
+  margin-left: 1100px;
+  margin-top: -40px;
+  letter-spacing: 20px;
+  font-size: 10px;
+}
+.content {
+  font-family: "Holtwood One SC", serif;
+  color: white;
+  letter-spacing: 5px;
+  margin-left: 30px;
+  margin-top: -550px;
+  font-size: 35px;
+}
+p {
+  font-size: 15px;
+  font-family: "Rajdhani", sans-serif;
+  margin-top: -30px;
+}
+.btn1 {
+  cursor: pointer;
+  font-family: cursive;
+
+  color: rgb(247, 74, 6);
+  margin-top: 20px;
+  margin-left: -5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: transparent;
+
+  border-radius: 10px;
+}
+.btn1:hover {
+  background-color: orangered;
+  color: white;
+}
+.btn2 {
+  cursor: pointer;
+  font-family: cursive;
+
+  color: rgb(247, 74, 6);
+  margin-top: 20px;
+  margin-left: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: transparent;
+
+  border-radius: 10px;
+}
+.btn2:hover {
+  background-color: orangered;
+  color: white;
+}
+.content1 img {
+  height: 80px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.content1 img:hover {
+  border: 1px solid rgb(243, 238, 238);
+  transform: scale(1.3);
+}
